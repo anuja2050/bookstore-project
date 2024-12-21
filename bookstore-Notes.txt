@@ -1,0 +1,8 @@
+merge the two array and decending order 
+sort 
+
+
+ how to validate inpute data through input field:-using react-hook-form *install "npm install react-hook-form"in our project 1st
+then import useform in input.jsx,then we use onsubmit()event in <form>tag in input.jsx,then define handleSubmit() function "const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const onSubmit = data => console.log(data); "paste befor the return in input.jsx,then "{...register("exampleRequired", { required: true })}" use this line in <input> tags in input.jsx if required:true 
+it means we have write email strickly,same with password.for the alert message showing we have to use
